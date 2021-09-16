@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// Components
+import { Customers } from './components/customers';
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="container">
+        <Customers />
+      </div>
     </div>
   );
 }

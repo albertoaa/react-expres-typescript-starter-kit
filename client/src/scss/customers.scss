@@ -2,3 +2,16 @@ h1 {
   font-size: 44px;
   color: red;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 30%;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  border-bottom: 1px dotted #777;
+}

@@ -4,8 +4,11 @@
   "description": "Boilerplate for MERN stack with Express",
   "main": "server.js",
   "scripts": {
+    "client-install": "cd client && yarn install",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "cd client && yarn start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Alberto Aragon",
   "license": "MIT",
